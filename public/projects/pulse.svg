@@ -1,0 +1,62 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#0E1830"/>
+  <rect width="600" height="400" fill="url(#grid)"/>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#E8A33D" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- browser chrome -->
+  <rect x="0" y="0" width="600" height="34" fill="#16223D"/>
+  <circle cx="18" cy="17" r="5" fill="#E8746A"/>
+  <circle cx="36" cy="17" r="5" fill="#E8A33D"/>
+  <circle cx="54" cy="17" r="5" fill="#6FCF97"/>
+  <rect x="80" y="10" width="220" height="14" rx="3" fill="#FAF8F3" fill-opacity="0.08"/>
+
+  <!-- sidebar -->
+  <rect x="0" y="34" width="120" height="366" fill="#16223D"/>
+  <rect x="20" y="58" width="80" height="8" rx="2" fill="#E8A33D"/>
+  <rect x="20" y="90" width="64" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.35"/>
+  <rect x="20" y="112" width="64" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.2"/>
+  <rect x="20" y="134" width="64" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.2"/>
+  <rect x="20" y="156" width="64" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.2"/>
+
+  <!-- stat cards -->
+  <g>
+    <rect x="142" y="58" width="130" height="64" rx="4" fill="#FAF8F3" fill-opacity="0.06" stroke="#E8A33D" stroke-opacity="0.3"/>
+    <rect x="158" y="74" width="50" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.3"/>
+    <rect x="158" y="92" width="74" height="14" rx="2" fill="#E8A33D"/>
+  </g>
+  <g>
+    <rect x="285" y="58" width="130" height="64" rx="4" fill="#FAF8F3" fill-opacity="0.06" stroke="#E8A33D" stroke-opacity="0.3"/>
+    <rect x="301" y="74" width="50" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.3"/>
+    <rect x="301" y="92" width="58" height="14" rx="2" fill="#FAF8F3"/>
+  </g>
+  <g>
+    <rect x="428" y="58" width="130" height="64" rx="4" fill="#FAF8F3" fill-opacity="0.06" stroke="#E8A33D" stroke-opacity="0.3"/>
+    <rect x="444" y="74" width="50" height="6" rx="2" fill="#FAF8F3" fill-opacity="0.3"/>
+    <rect x="444" y="92" width="66" height="14" rx="2" fill="#6FCF97"/>
+  </g>
+
+  <!-- line chart -->
+  <rect x="142" y="140" width="416" height="130" rx="4" fill="#FAF8F3" fill-opacity="0.05" stroke="#FAF8F3" stroke-opacity="0.1"/>
+  <polyline points="160,230 210,210 260,235 310,180 360,200 410,150 460,170 510,120 540,140" fill="none" stroke="#E8A33D" stroke-width="2.5"/>
+  <polyline points="160,230 210,210 260,235 310,180 360,200 410,150 460,170 510,120 540,140" fill="none" stroke="#E8A33D" stroke-opacity="0.15" stroke-width="40"/>
+
+  <!-- bars -->
+  <g fill="#FAF8F3" fill-opacity="0.5">
+    <rect x="142" y="300" width="40" height="60" />
+    <rect x="194" y="280" width="40" height="80" />
+    <rect x="246" y="320" width="40" height="40" />
+    <rect x="298" y="260" width="40" height="100" />
+    <rect x="350" y="300" width="40" height="60" />
+  </g>
+  <g fill="#E8A33D">
+    <rect x="142" y="345" width="40" height="15" />
+    <rect x="194" y="350" width="40" height="10" />
+    <rect x="246" y="340" width="40" height="20" />
+    <rect x="298" y="348" width="40" height="12" />
+    <rect x="350" y="345" width="40" height="15" />
+  </g>
+</svg>
