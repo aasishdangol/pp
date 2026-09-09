@@ -1,5 +1,5 @@
 import SectionTag from "./SectionTag";
-import Imagp from "../public/images/pp.png"
+import Imagp from "../public/images/pppp.png"
 import Image from "next/image";
 
 const stats = [
@@ -26,9 +26,9 @@ export default function About() {
                 priority
               />
             </div>
-            <span className="absolute -left-3 top-1/2 -translate-y-1/2 -rotate-90 font-mono text-[10px] uppercase tracking-[0.2em] text-slate-muted">
+            {/* <span className="absolute -left-3 top-1/2 -translate-y-1/2 -rotate-90 font-mono text-[10px] uppercase tracking-[0.2em] text-slate-muted">
               fig. 01
-            </span>
+            </span> */}
           </div>
 
           <div>

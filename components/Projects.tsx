@@ -33,7 +33,7 @@ const projects = [
     description:
       "Official website for the Independent Power Producers' Association of Nepal (IPPAN), established in 2001 to promote the growth of Nepal's energy sector through private sector participation.",
     image: ip,
-    stack: ["React", "Radix UI"],
+    stack: ["React", "JavaScript","CSS"],
     href: "https://www.ippan.org.np/",
     repo: "#",
   },
@@ -43,7 +43,7 @@ const projects = [
     description:
       "Website for Siddhartha Cable Car, built by visionary entrepreneurs on a mission to revive the historical grandeur of the Nuwakot region through sustainable tourism.",
     image: sc,
-    stack: ["React", "TypeScript", "CSS Variables"],
+    stack: ["HTML", "JavaScript", "CSS"],
     href: "https://siddharthacablecar.com.np/",
     repo: "#",
   },
