@@ -22,7 +22,7 @@ const groups = [
     items: [
       { name: "Git / GitHub", level: 92 },
       { name: "Figma", level: 78 },
-      { name: "Testing", level: 75 },
+      { name: "Postman", level: 90 },
     ],
   },
 ];
